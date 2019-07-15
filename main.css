@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(116, 137, 143, 1) 1%, rgba(103, 123, 128, 1) 14%, rgba(51, 65, 65, 1) 71%, rgba(23, 31, 34, 1) 87%);
+    /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, rgba(116, 137, 143, 1)), color-stop(14%, rgba(103, 123, 128, 1)), color-stop(71%, rgba(51, 65, 65, 1)), color-stop(87%, rgba(23, 31, 34, 1)));
+    /* safari4+,chrome */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(116, 137, 143, 1) 1%, rgba(103, 123, 128, 1) 14%, rgba(51, 65, 65, 1) 71%, rgba(23, 31, 34, 1) 87%);
+    /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(116, 137, 143, 1) 1%, rgba(103, 123, 128, 1) 14%, rgba(51, 65, 65, 1) 71%, rgba(23, 31, 34, 1) 87%);
+    /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(116, 137, 143, 1) 1%, rgba(103, 123, 128, 1) 14%, rgba(51, 65, 65, 1) 71%, rgba(23, 31, 34, 1) 87%);
+    /* ie10+ */
+    background: radial-gradient(ellipse at center, rgba(116, 137, 143, 1) 1%, rgba(103, 123, 128, 1) 14%, rgba(51, 65, 65, 1) 71%, rgba(23, 31, 34, 1) 87%);
+    /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74898F', endColorstr='#171F22', GradientType=0);
+    /* ie6-9 */
+}
+
+.container {
+    text-align: right;
+    padding: 2em;
+}
+
+#txt-video {
+    color: rgb(0, 252, 0);
+    font-size: 3em;
+    font-family: "Noto Sans JP";
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.301);
+}
+
+
+@media(max-width:640px) {
+    .container {
+        padding: 1em;
+    }
+
+    #txt-video {
+        font-size: 2em;
+    }
+}
